@@ -10,7 +10,7 @@ import { HomePage } from '../home/home';
 })
 export class TabsPage {
 
-@ViewChild('myTabs') tabRef: Tabs;
+@ViewChild('myTabs') tabRef: myTabs;
 
 ionViewDidEnter() {
   this.tabRef.select(1);
@@ -23,7 +23,5 @@ ionViewDidEnter() {
   constructor() {
 
   }
- 
+
 }
-  
-   
