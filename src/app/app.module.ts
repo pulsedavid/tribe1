@@ -5,8 +5,8 @@ import { MyApp } from './app.component';
 
 import { ChatPage } from '../pages/chat/chat';
 import { ContactlistPage } from '../pages/contactlist/contactlist';
-import { TribesproPage } from '../pages/destinopro/destinopro';
-import { TribesproupPage } from '../pages/destinoproup/destinoproup';
+import { TribesproPage } from '../pages/tribespro/tribespro';
+import { TribesproupPage } from '../pages/tribesproup/tribesproup';
 import { EditprofilePage } from '../pages/editprofile/editprofile';
 import { HomePage } from '../pages/home/home';
 import { InsightPage } from '../pages/insight/insight';

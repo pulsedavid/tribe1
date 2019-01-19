@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ProfilePage } from '../profile/profile';
-import { DestinoproPage } from '../destinopro/destinopro';
+import { TribesproPage } from '../tribespro/tribespro';
 
 @Component({
   selector: 'page-home',
@@ -16,7 +16,7 @@ export class HomePage {
    profile(){
    this.navCtrl.push(ProfilePage);
   }
- destinopro(){
-   this.navCtrl.push(DestinoproPage);
+ tribespro(){
+   this.navCtrl.push(TribesproPage);
   }
 }

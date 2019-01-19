@@ -1,20 +1,20 @@
 import { Component } from '@angular/core';
 import { NavController, ModalController } from 'ionic-angular';
-import { DestinoproupPage } from '../destinoproup/destinoproup';
+import { TribesproupPage } from '../tribesproup/tribesproup';
 
 @Component({
-  selector: 'page-destinopro',
-  templateUrl: 'destinopro.html'
+  selector: 'page-tribespro',
+  templateUrl: 'tribespro.html'
 })
-export class DestinoproPage {
+export class TribesproPage {
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
 
   }
 
 
-  destinoproup() {
-    let modal = this.modalCtrl.create(DestinoproupPage);
+  tribesproup() {
+    let modal = this.modalCtrl.create(TribesproupPage);
     modal.present();
   } 
 }

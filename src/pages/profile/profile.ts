@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { DestinoproPage } from '../destinopro/destinopro';
+import { TribesproPage } from '../tribespro/tribespro';
 import { ProfileimgPage } from '../profileimg/profileimg';
 import { MatchPage } from '../match/match';
 
@@ -39,8 +39,8 @@ all_about: string = "gallery";
     {image: "assets/imgs/img1.png"}
   ];
   
-  destinopro(){
-   this.navCtrl.push(DestinoproPage);
+  tribespro(){
+   this.navCtrl.push(TribesproPage);
   }
   profileimg(){
    this.navCtrl.push(ProfileimgPage);
